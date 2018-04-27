@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clearfix img{
+    /* width: 210px;
+    height: 110px; */
+    width: 100%;
+    border: 2px solid #1c2126;
+    border-radius: 10px;
+}
+.clearfix2 img {
+    margin: 20px 0;
+}
+/*****************************************     project       ***************************************************/
+#site-main .project{
+    margin-bottom: 10px;
+}
+#site-main .master-design{
+    padding: 10px 0;
+}
+#site-main .project .pic,
+#site-main .master-design .design .pic{
+    float: left;
+    margin-right: 13px;
+}
+#site-main .project .project-title,
+#site-main .design .design-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+.uptop {
+    margin-top: 20px;
+}
+
+
